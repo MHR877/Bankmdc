@@ -10,7 +10,8 @@ module org.example.newapp {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires com.fasterxml.jackson.databind;
 
-    opens org.example.newapp to javafx.fxml;
+    opens org.example.newapp to javafx.fxml, com.fasterxml.jackson.databind;
     exports org.example.newapp;
 }

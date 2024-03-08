@@ -1,147 +1,145 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "firstName": "Jonas",
-      "lastName": "Schmedtmann",
-      "password": 1111,
-      "balance": 8620.59,
-      "transactions": [
-        {
-          "date": "2022-11-01T13:15:33.035Z",
-          "amount": 200,
-          "type": "deposit"
-        },
-        {
-          "date": "2022-11-30T09:48:16.867Z",
-          "amount": 455.23,
-          "type": "deposit"
-        },
-        {
-          "date": "2022-12-25T06:04:23.907Z",
-          "amount": -306.5,
-          "type": "withdrawal"
-        },
-        {
-          "date": "2023-01-25T14:18:46.235Z",
-          "amount": 25000,
-          "type": "deposit"
-        },
-        {
-          "date": "2023-03-28T16:33:06.386Z",
-          "amount": -642.21,
-          "type": "withdrawal"
-        },
-        {
-          "date": "2023-04-02T14:43:26.374Z",
-          "amount": -133.9,
-          "type": "withdrawal"
-        },
-        {
-          "date": "2023-04-04T18:49:59.371Z",
-          "amount": 79.97,
-          "type": "deposit"
-        },
-        {
-          "date": "2023-04-06T12:01:20.894Z",
-          "amount": 1300,
-          "type": "deposit"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "firstName": "Jessica",
-      "lastName": "Davis",
-      "password": 2222,
-      "balance": 9130,
-      "transactions": [
-        {
-          "date": "2019-11-01T13:15:33.035Z",
-          "amount": 5000,
-          "type": "deposit"
-        },
-        {
-          "date": "2019-11-30T09:48:16.867Z",
-          "amount": 3400,
-          "type": "deposit"
-        },
-        {
-          "date": "2019-12-25T06:04:23.907Z",
-          "amount": -150,
-          "type": "withdrawal"
-        },
-        {
-          "date": "2020-01-25T14:18:46.235Z",
-          "amount": -790,
-          "type": "withdrawal"
-        },
-        {
-          "date": "2020-02-05T16:33:06.386Z",
-          "amount": -3210,
-          "type": "withdrawal"
-        },
-        {
-          "date": "2020-04-10T14:43:26.374Z",
-          "amount": -1000,
-          "type": "withdrawal"
-        },
-        {
-          "date": "2020-06-25T18:49:59.371Z",
-          "amount": 8500,
-          "type": "deposit"
-        },
-        {
-          "date": "2020-07-26T12:01:20.894Z",
-          "amount": -30,
-          "type": "withdrawal"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "firstName": "Mohammed",
-      "lastName": "abbou",
-      "password": 8777,
-      "balance": 200,
-      "transactions": [
-        {
-          "date": "2023-04-04T18:49:59.371Z",
-          "amount": 100,
-          "type": "deposit"
-        },
-        { "date": "2023-04-06T12:01:20.894Z", "amount": 100, "type": "deposit" }
-      ]
-    },
-    {
-      "id": 4,
-      "firstName": "abdou",
-      "lastName": "bou",
-      "password": 2005,
-      "balance": 200,
-      "transactions": [
-        {
-          "date": "2023-04-04T18:49:59.371Z",
-          "amount": 100,
-          "type": "deposit"
-        },
-        { "date": "2023-04-06T12:01:20.894Z", "amount": 100, "type": "deposit" }
-      ]
-    },
-    {
-      "id": 5,
-      "firstName": "khalil",
-      "lastName": "ben",
-      "password": 1234,
-      "balance": 200,
-      "transactions": [
-        {
-          "date": "2023-04-04T18:49:59.371Z",
-          "amount": 100,
-          "type": "deposit"
-        },
-        { "date": "2023-04-06T12:01:20.894Z", "amount": 100, "type": "deposit" }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "firstName": "Jonas",
+    "lastName": "Schmedtmann",
+    "password": 1111,
+    "balance": 8620.59,
+    "transactions": [
+      {
+        "date": "2022-11-01T13:15:33.035Z",
+        "amount": 200,
+        "type": "DEPOSIT"
+      },
+      {
+        "date": "2022-11-30T09:48:16.867Z",
+        "amount": 455.23,
+        "type": "DEPOSIT"
+      },
+      {
+        "date": "2022-12-25T06:04:23.907Z",
+        "amount": -306.5,
+        "type": "WITHDRAWAL"
+      },
+      {
+        "date": "2023-01-25T14:18:46.235Z",
+        "amount": 25000,
+        "type": "DEPOSIT"
+      },
+      {
+        "date": "2023-03-28T16:33:06.386Z",
+        "amount": -642.21,
+        "type": "WITHDRAWAL"
+      },
+      {
+        "date": "2023-04-02T14:43:26.374Z",
+        "amount": -133.9,
+        "type": "WITHDRAWAL"
+      },
+      {
+        "date": "2023-04-04T18:49:59.371Z",
+        "amount": 79.97,
+        "type": "DEPOSIT"
+      },
+      {
+        "date": "2023-04-06T12:01:20.894Z",
+        "amount": 1300,
+        "type": "DEPOSIT"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "firstName": "Jessica",
+    "lastName": "Davis",
+    "password": 2222,
+    "balance": 9130,
+    "transactions": [
+      {
+        "date": "2019-11-01T13:15:33.035Z",
+        "amount": 5000,
+        "type": "DEPOSIT"
+      },
+      {
+        "date": "2019-11-30T09:48:16.867Z",
+        "amount": 3400,
+        "type": "DEPOSIT"
+      },
+      {
+        "date": "2019-12-25T06:04:23.907Z",
+        "amount": -150,
+        "type": "WITHDRAWAL"
+      },
+      {
+        "date": "2020-01-25T14:18:46.235Z",
+        "amount": -790,
+        "type": "WITHDRAWAL"
+      },
+      {
+        "date": "2020-02-05T16:33:06.386Z",
+        "amount": -3210,
+        "type": "WITHDRAWAL"
+      },
+      {
+        "date": "2020-04-10T14:43:26.374Z",
+        "amount": -1000,
+        "type": "WITHDRAWAL"
+      },
+      {
+        "date": "2020-06-25T18:49:59.371Z",
+        "amount": 8500,
+        "type": "DEPOSIT"
+      },
+      {
+        "date": "2020-07-26T12:01:20.894Z",
+        "amount": -30,
+        "type": "WITHDRAWAL"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "firstName": "Mohammed",
+    "lastName": "abbou",
+    "password": 8777,
+    "balance": 200,
+    "transactions": [
+      {
+        "date": "2023-04-04T18:49:59.371Z",
+        "amount": 100,
+        "type": "DEPOSIT"
+      },
+      { "date": "2023-04-06T12:01:20.894Z", "amount": 100, "type": "DEPOSIT" }
+    ]
+  },
+  {
+    "id": 4,
+    "firstName": "abdou",
+    "lastName": "bou",
+    "password": 2005,
+    "balance": 200,
+    "transactions": [
+      {
+        "date": "2023-04-04T18:49:59.371Z",
+        "amount": 100,
+        "type": "DEPOSIT"
+      },
+      { "date": "2023-04-06T12:01:20.894Z", "amount": 100, "type": "DEPOSIT" }
+    ]
+  },
+  {
+    "id": 5,
+    "firstName": "khalil",
+    "lastName": "ben",
+    "password": 1234,
+    "balance": 200,
+    "transactions": [
+      {
+        "date": "2023-04-04T18:49:59.371Z",
+        "amount": 100,
+        "type": "DEPOSIT"
+      },
+      { "date": "2023-04-06T12:01:20.894Z", "amount": 100, "type": "DEPOSIT" }
+    ]
+  }
+]

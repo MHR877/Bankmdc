@@ -37,7 +37,6 @@ public class BankController {
             DisplayBalance();
             addMoneyField.setText("");
         }
-
     }
 
     @FXML
