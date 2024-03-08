@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.newapp.BankController"
+      stylesheets="@styles.css">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <Label fx:id="balanceLabel" text="Current Balance: $0.00"/>
+
+    <TextField fx:id="addMoneyField" promptText="Enter amount to add"/>
+    <Button text="Add Money" onAction="#addMoney"/>
+
+    <TextField fx:id="withdrawMoneyField" promptText="Enter amount to withdraw"/>
+    <Button text="Withdraw Money" onAction="#withdrawMoney"/>
+
+    <VBox alignment="CENTER" spacing="10.0">
+        <HBox alignment="CENTER" spacing="20.0">
+            <Button text="-" onAction="#decrease"/>
+            <Label fx:id="mushChange" text="0"/>
+            <Button text="+" onAction="#increase"/>
+        </HBox>
+        <Button text="Add" onAction="#addChange"/>
+    </VBox>
+</VBox>

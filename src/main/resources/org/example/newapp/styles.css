@@ -1,0 +1,32 @@
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-pref-width: 100px;
+}
+
+.button {
+    -fx-font-size: 19px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #367c39;
+}
