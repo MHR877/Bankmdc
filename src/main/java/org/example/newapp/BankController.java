@@ -1,8 +1,12 @@
 package org.example.newapp;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 
 public class BankController {
     @FXML
@@ -81,5 +85,16 @@ public class BankController {
     protected void addChange() {
         total = total + amount;
         DisplayBalance();
+    }
+
+    @FXML
+    protected void logout() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("login-view.fxml"));
+            BorderPane root = loader.load();
+            BankApplication.getMainStage().setScene(new Scene(root, 600, 500));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

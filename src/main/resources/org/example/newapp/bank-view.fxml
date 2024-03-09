@@ -29,4 +29,6 @@
         </HBox>
         <Button text="Add" onAction="#addChange"/>
     </VBox>
+
+    <Button text="Logout" onAction="#logout"/>
 </VBox>

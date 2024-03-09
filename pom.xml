@@ -169,7 +169,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.example.newapp/org.example.newapp.HelloApplication</mainClass>
+                            <mainClass>org.example.newapp/org.example.newapp.BankApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
